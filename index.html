@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Baper Bank</title>
 </head>
-<body>
+
+<body class="bg-[url('/bg-image.jpg')]">
     <header>
-        <h1 class="text-5xl text-center mt-4">Welcome To Your <span class="font-semibold text-violet-600">Baper Bank !!</span></h1>
+        <h1 class="text-5xl text-center mt-4">Welcome To Your <span class="font-semibold text-violet-600">Baper Bank
+                !!</span></h1>
     </header>
     <main>
-        <section class="bg-blue-500 w-9/12 mx-auto mt-12 p-8">
-            <h3 class="text-4xl mb-4 font-medium">Please Login</h3>
-            <div>
-                <input id="user-email" class="w-9/12 block mb-4 px-4 rounded-lg" type="email" name="" id="" placeholder="Enter Your email">
-                <input id="user-pass" class="w-9/12 block mb-4 px-4 rounded-lg" type="password" name="" id="" placeholder="Enter Your Password">
-                <button id="btn-submit" class="bg-amber-500 px-8 py-2 text-white font-medium rounded-xl hover:bg-sky-400" type="submit">Submit</button>
+        <section class="flex justify-center items-center w-[450px] h-[500px] bg-blue-500  mx-auto mt-12">
+            <div class="">
+                <h3 class="text-4xl mb-4 font-medium">Please Login</h3>
+                <div>
+                    <input id="user-email" class="block mb-4 px-4 rounded-lg" type="email" name="" id=""
+                        placeholder="Enter Your email">
+                    <input id="user-pass" class="block mb-4 px-4 rounded-lg" type="password" name="" id=""
+                        placeholder="Enter Your Password">
+                    <button id="btn-submit"
+                        class="bg-amber-500 px-8 py-2 text-white font-medium rounded-xl w-full hover:bg-sky-400"
+                        type="submit">Submit</button>
+                </div>
             </div>
         </section>
     </main>
@@ -25,4 +34,5 @@
     </footer>
     <script src="js/login.js"></script>
 </body>
+
 </html>
